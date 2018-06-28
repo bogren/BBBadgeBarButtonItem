@@ -31,6 +31,8 @@
 // Badge has a bounce animation when value changes
 @property BOOL shouldAnimateBadge;
 
+@property (nonatomic, assign, getter=isBadgeUserInteractionEnabled) BOOL badgeUserInteractionEnabled;
+
 - (BBBadgeBarButtonItem *)initWithCustomUIButton:(UIButton *)customButton;
 
 @end
